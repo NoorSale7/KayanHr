@@ -8,7 +8,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:solid_principles/single_responsibility .dart';
+import 'package:solid_principles/single_responsibility(srp).dart';
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
