@@ -42,7 +42,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       // Scaffold = basic screen structure (app bar + body)
       appBar: AppBar(
-        title: const Text('Week 3 Demo'),
+        title: const Text(' Week 3 Demo '),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0), // Padding widget
