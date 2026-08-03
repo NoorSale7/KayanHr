@@ -4,11 +4,13 @@ void main() {
   runApp(MyApp());
 }
 
+
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: ProfilePage(),
     );
   }
@@ -59,7 +61,7 @@ class ProfilePage extends StatelessWidget {
                 padding: EdgeInsets.all(16),
                 child: Column(
                   children: [
-                    _buildInfoRow(Icons.phone, "Phone", "+962 797105207"),
+                    _buildInfoRow(Icons.phone, "Phone", "+962 79 710 5207"),
                     Divider(),
                     _buildInfoRow(Icons.location_on, "Location", "Zarqa, Jordan"),
                     Divider(),
@@ -93,7 +95,7 @@ class ProfilePage extends StatelessWidget {
     return Row(
       children: [
         Icon(icon, color: Colors.blue, size: 20),
-        SizedBox(width: 12),
+       const SizedBox(width: 12),
         Text(
           "$label: ",
           style: TextStyle(fontWeight: FontWeight.w600),
