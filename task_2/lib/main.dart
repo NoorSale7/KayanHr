@@ -4,7 +4,6 @@ void main() {
   runApp(MyApp());
 }
 
-
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
   @override
@@ -15,6 +14,7 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
 
 class ProfilePage extends StatelessWidget {
   @override
